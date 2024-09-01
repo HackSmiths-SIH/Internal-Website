@@ -11,10 +11,10 @@ export const ReportsData: ReportsSchema[] = [
     {
         id: "r1",
         previewImgLink: "/images/rep1.png",
-        reportName: "EKG",
+        reportName: "ECG",
         reportDate: "2022-01-03",
         location: "St. Mary's Hospital",
-        reportPDFLink: "https://example.com/reports/patient1_report.pdf",
+        reportPDFLink: "https://www.vectracor.com/wp-content/uploads/2020/03/ECG-Sample-Report-1.pdf",
     },
     {
         id: "r2",
@@ -22,7 +22,7 @@ export const ReportsData: ReportsSchema[] = [
         reportName: "Kidney Profile Test",
         reportDate: "2022-02-01",
         location: "General Hospital",
-        reportPDFLink: "https://example.com/reports/patient2_report.pdf",
+        reportPDFLink: "https://cdn1.lalpathlabs.com/live/reports/Z007.pdf",
     },
     {
         id: "r3",
@@ -30,6 +30,6 @@ export const ReportsData: ReportsSchema[] = [
         reportName: "Liver Function Test",
         reportDate: "2022-03-01",
         location: "City Medical Center",
-        reportPDFLink: "https://example.com/reports/patient3_report.pdf",
+        reportPDFLink: "https://cdn1.lalpathlabs.com/live/reports/Z005.pdf",
     },
 ]
