@@ -61,7 +61,7 @@ const HealthChat: React.FC = () => {
       try {
         const resultResponse = await fetch(jobEndpoint);
         const resultData = await resultResponse.json();
-
+        console.log(resultData)
         if (resultData.result) {
           clearInterval(intervalId); // Stop polling when the result is available
 
